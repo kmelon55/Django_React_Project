@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class ott_project_app(models.model):
+class ott_project_app(models.Model):
     title = models.CharField(max_length=100)
     content = models.TextField()
 
